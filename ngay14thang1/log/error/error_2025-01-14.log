@@ -1,0 +1,29 @@
+2025-01-14 10:32:15,781 - ERROR - Error in state_3_searchdb
+local variable 'recommend_response' referenced before assignment
+
+2025-01-14 10:32:15,783 - ERROR - 'get_weather'
+
+2025-01-14 10:59:17,420 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: search_device_by_id(dev_id='F-16020')
+
+
+2025-01-14 11:29:20,539 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: [search_device_by_id(dev_id='F17')
+
+
+2025-01-14 11:29:21,699 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: [search_device_by_id(dev_id='F17')
+
+
+2025-01-14 11:38:45,443 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: search_device_by_name(dev_name='QUANG TRUNG - TRẦN HƯNG ĐẠO D80')
+
+

@@ -1,0 +1,42 @@
+2025-01-13 13:45:16,695 - ERROR - Quá thời gian chờ! Đang khởi động lại chương trình...
+
+2025-01-13 13:51:23,643 - ERROR - Quá thời gian chờ! Đang khởi động lại chương trình...
+
+2025-01-13 13:51:31,353 - ERROR - Quá thời gian chờ! Đang khởi động lại chương trình...
+
+2025-01-13 13:56:20,928 - ERROR - Quá thời gian chờ! Đang khởi động lại chương trình...
+
+2025-01-13 14:07:22,327 - ERROR - Quá thời gian chờ! Đang khởi động lại chương trình...
+
+2025-01-13 14:55:33,542 - ERROR - Quá thời gian chờ! Đang khởi động lại chương trình...
+
+2025-01-13 14:57:32,160 - ERROR - 'FunctionCall' object is not subscriptable
+
+2025-01-13 15:01:41,106 - ERROR - 'FunctionCall' object is not subscriptable
+
+2025-01-13 15:04:18,059 - ERROR - 'FunctionCall' object is not subscriptable
+
+2025-01-13 16:17:03,754 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: search_device_by_name(dev_name='ĐH LÊ DUẨN')
+
+
+2025-01-13 16:51:38,282 - ERROR - Error during execute function
+response: search_device_by_name
+Function name: search_device_by_name
+Arguments: ({'dev_name': 'Lê Duẩn'}, 'Dựa trên yêu cầu của bạn, tôi tìm thấy các chuỗi sau có độ tương đồng cao với "Lê Duẩn":\n\n* "ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.4"\n* "ĐH D100 Y NUÊ - LÊ DUẪN | score: 0.4"\n* "ĐH Y WANG _ LÊ DUẨN (D100) | score: 0.42424242424242425"\n* "ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200 | score: 0.28"\n\nNhững chuỗi này có độ tương đồng cao với "Lê Duẩn" và có thể là những thiết bị hoặc trường học mà bạn đang tìm kiếm.')
+Exception: function_call.search_device_by_name() argument after ** must be a mapping, not tuple
+
+2025-01-13 16:51:46,425 - ERROR - Error during execute function
+response: search_device_by_name
+Function name: search_device_by_name
+Arguments: ({'dev_name': 'Lê Duẩn'}, 'Tôi tìm thấy một chuỗi có độ tương đồng cao với yêu cầu "Lê Duẩn":\n\n[ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.4]\n\nĐây là chuỗi có độ tương đồng cao nhất với yêu cầu của bạn.')
+Exception: function_call.search_device_by_name() argument after ** must be a mapping, not tuple
+
+2025-01-13 16:51:52,556 - ERROR - Error during execute function
+response: search_device_by_name
+Function name: search_device_by_name
+Arguments: ({'dev_name': "'ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.4', 'ĐH D100 Y NUÊ - LÊ DUẪN | score: 0.4', 'ĐH Y WANG _ LÊ DUẨN (D100) | score: 0.42424242424242425'"}, '')
+Exception: function_call.search_device_by_name() argument after ** must be a mapping, not tuple
+
