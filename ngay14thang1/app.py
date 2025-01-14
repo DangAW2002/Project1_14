@@ -248,4 +248,4 @@ with gr.Blocks(fill_height=True) as demo:
 
 if __name__ == "__main__":
     configure_logger()  # Configure logger
-    demo.launch(server_name="0.0.0.0", server_port=8080,share= True)  # Launch the interface
+    demo.launch(share= True)  # Launch the interface
