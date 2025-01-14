@@ -2,3 +2,5 @@ dataclasses
 transformers
 torch
 gradio
+speechrecognition
+pydub
