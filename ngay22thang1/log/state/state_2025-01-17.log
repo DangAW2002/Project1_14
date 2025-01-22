@@ -1,0 +1,4207 @@
+2025-01-17 10:33:09,918 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:33:10,964 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:33:10,964 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:33:10,964 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:33:12,038 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:33:12,038 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 10:33:15,470 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:33:15,470 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:33:15,470 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:33:15,471 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:33:15,471 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 10:33:15,471 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:33:15,482 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 10:33:15,483 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:33:15,483 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 10:33:15,590 - INFO - STATE 3_2 DATABASE | response_search: 
+23
+
+2025-01-17 10:33:15,590 - INFO - STATE 3_2 DATABASE | recommend_response: 
+23
+
+2025-01-17 10:33:15,590 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:33:15,590 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:33:15,590 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:33:15,870 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 10:33:15,870 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 10:33:15,870 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:33:15,870 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:33:15,870 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:35:46,546 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:35:47,246 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:35:47,246 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:35:47,246 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:35:48,271 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:35:48,271 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 10:35:55,454 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:35:55,455 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:35:55,455 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:35:55,455 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:35:55,456 - INFO - STATE 3 | args: 
+{'dev_name': 'xô viết'}
+
+2025-01-17 10:35:55,456 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:35:55,464 - INFO - STATE 3_2 DATABASE | query: 
+xô viết
+
+2025-01-17 10:35:55,464 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:35:55,464 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "Giếng TL2_1",
+    "ĐH XÔ VIẾT NGHỆ TĨNH-HOÀNG DIỆU D100",
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 10:35:55,551 - INFO - STATE 3_2 DATABASE | response_search: 
+23
+
+2025-01-17 10:35:55,551 - INFO - STATE 3_2 DATABASE | recommend_response: 
+23
+
+2025-01-17 10:35:55,551 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:35:55,551 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:35:55,551 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:35:55,635 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 10:35:55,635 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 10:35:55,635 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:35:55,635 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:35:55,635 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:36:17,260 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:36:18,199 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:36:18,199 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 10:36:18,199 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:36:19,397 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 10:36:19,397 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 10:36:22,349 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:36:22,349 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:36:22,350 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:36:22,350 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:36:22,350 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 10:36:22,350 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:36:22,368 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 10:36:22,369 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:36:22,369 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+2025-01-17 10:36:22,476 - INFO - STATE 3_2 DATABASE | response_search: 
+10
+
+2025-01-17 10:36:22,476 - INFO - STATE 3_2 DATABASE | recommend_response: 
+10
+
+2025-01-17 10:36:22,476 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:36:22,476 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:36:22,476 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:36:25,223 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 10:36:25,223 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 10:36:25,223 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:36:25,223 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:36:25,223 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:39:24,948 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:39:26,079 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:39:26,079 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 10:39:26,079 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:39:27,241 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 10:39:27,241 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 10:39:32,965 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:39:32,965 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:39:32,965 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:39:32,965 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:39:32,965 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 10:39:32,965 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:39:32,971 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 10:39:32,971 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:39:32,971 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+2025-01-17 10:39:46,094 - INFO - STATE 3_2 DATABASE | response_search: 
+Sau khi ánh xạ, danh sách các chuỗi sẽ trở thành:
+
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+Sau khi ánh xạ thiết bị quang trung - Xô Viết, danh sách sẽ trở thành:
+
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+Vì không có chuỗi nào trong danh sách có chứa từ "Xô Viết", nên trả về 00.
+
+2025-01-17 10:39:46,094 - INFO - STATE 3_2 DATABASE | recommend_response: 
+Sau khi ánh xạ, danh sách các chuỗi sẽ trở thành:
+
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+Sau khi ánh xạ thiết bị quang trung - Xô Viết, danh sách sẽ trở thành:
+
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+Vì không có chuỗi nào trong danh sách có chứa từ "Xô Viết", nên trả về 00.
+
+2025-01-17 10:39:46,094 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:39:46,094 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:39:46,094 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:39:48,824 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 10:39:48,824 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 10:39:48,824 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:39:48,824 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:39:48,824 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:42:16,519 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:42:17,575 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:42:17,575 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:42:17,575 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:42:18,679 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:42:18,679 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 10:42:20,679 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:42:20,679 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:42:20,680 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:42:20,680 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:42:20,680 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 10:42:20,680 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:42:20,696 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 10:42:20,696 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:42:20,696 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 10:42:20,804 - INFO - STATE 3_2 DATABASE | response_search: 
+10
+
+2025-01-17 10:42:20,804 - INFO - STATE 3_2 DATABASE | recommend_response: 
+10
+
+2025-01-17 10:42:20,804 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:42:20,804 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:42:20,804 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:42:21,084 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 10:42:21,084 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 10:42:21,084 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:42:21,084 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:42:21,084 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:47:34,600 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:47:35,523 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:47:35,523 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:47:35,523 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:47:36,527 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:47:36,527 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 10:47:38,584 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:47:38,584 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:47:38,584 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:47:38,585 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:47:38,585 - INFO - STATE 3 | args: 
+{'dev_name': 'xô viết'}
+
+2025-01-17 10:47:38,585 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:47:38,593 - INFO - STATE 3_2 DATABASE | query: 
+xô viết
+
+2025-01-17 10:47:38,593 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:47:38,593 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "Giếng TL2_1",
+    "ĐH XÔ VIẾT NGHỆ TĨNH-HOÀNG DIỆU D100",
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 10:47:38,678 - INFO - STATE 3_2 DATABASE | response_search: 
+00
+
+2025-01-17 10:47:38,678 - INFO - STATE 3_2 DATABASE | recommend_response: 
+00
+
+2025-01-17 10:47:38,678 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:47:38,678 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:47:38,678 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:47:38,760 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 10:47:38,760 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 10:47:38,760 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:47:38,760 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:47:38,760 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:47:52,622 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:47:53,310 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:47:53,311 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:47:53,311 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:47:54,318 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:47:54,318 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 10:47:58,981 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:47:59,790 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:47:59,790 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:47:59,790 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:48:00,893 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:48:00,893 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 10:48:03,316 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:48:03,316 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:48:03,316 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:48:03,316 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:48:03,316 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 10:48:03,316 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:48:03,328 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 10:48:03,328 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:48:03,328 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 10:48:03,452 - INFO - STATE 3_2 DATABASE | response_search: 
+23
+
+2025-01-17 10:48:03,452 - INFO - STATE 3_2 DATABASE | recommend_response: 
+23
+
+2025-01-17 10:48:03,452 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:48:03,452 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:48:03,452 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:48:03,741 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 10:48:03,741 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 10:48:03,741 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:48:03,741 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:48:03,741 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:49:28,354 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:49:29,487 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:49:29,487 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 10:49:29,487 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:49:30,680 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 10:49:30,680 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 10:49:32,698 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:49:32,699 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:49:32,699 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:49:32,700 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:49:32,700 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 10:49:32,700 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:49:32,721 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 10:49:32,721 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:49:32,721 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+2025-01-17 10:49:32,830 - INFO - STATE 3_2 DATABASE | response_search: 
+23
+
+2025-01-17 10:49:32,830 - INFO - STATE 3_2 DATABASE | recommend_response: 
+23
+
+2025-01-17 10:49:32,830 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:49:32,830 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:49:32,830 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:49:35,585 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 10:49:35,585 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 10:49:35,585 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:49:35,585 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:49:35,585 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:50:59,176 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:51:00,109 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:51:00,109 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:51:00,109 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:51:01,117 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 10:51:01,117 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 10:51:03,231 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:51:03,231 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:51:03,231 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:51:03,231 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:51:03,231 - INFO - STATE 3 | args: 
+{'dev_name': 'xô viết'}
+
+2025-01-17 10:51:03,232 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:51:03,240 - INFO - STATE 3_2 DATABASE | query: 
+xô viết
+
+2025-01-17 10:51:03,240 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:51:03,240 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "Giếng TL2_1",
+    "ĐH XÔ VIẾT NGHỆ TĨNH-HOÀNG DIỆU D100",
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 10:51:03,329 - INFO - STATE 3_2 DATABASE | response_search: 
+19
+
+2025-01-17 10:51:03,329 - INFO - STATE 3_2 DATABASE | recommend_response: 
+19
+
+2025-01-17 10:51:03,329 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:51:03,329 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:51:03,329 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:51:03,413 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 10:51:03,413 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 10:51:03,413 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:51:03,413 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:51:03,413 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:55:21,149 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:55:22,188 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:55:22,188 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:55:22,188 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:55:23,283 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:55:23,283 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 10:55:25,790 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:55:25,791 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:55:25,791 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:55:25,791 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:55:25,791 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 10:55:25,791 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:55:25,813 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 10:55:25,813 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:55:25,813 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 10:55:25,813 - ERROR - Error in state_3_searchdb
+bad operand type for unary +: 'str'
+
+2025-01-17 10:55:25,813 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:55:25,813 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:55:25,813 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:55:25,814 - INFO - STATE 3 | ERROR
+string indices must be integers
+
+2025-01-17 10:55:25,814 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:55:25,814 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:56:32,334 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:56:33,358 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:56:33,358 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:56:33,358 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:56:34,459 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:56:34,459 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 10:56:36,194 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:56:36,194 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:56:36,194 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:56:36,195 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:56:36,195 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 10:56:36,195 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:56:36,215 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 10:56:36,215 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:56:36,215 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 10:56:38,778 - INFO - STATE 3_2 DATABASE | response_search: 
+1. "QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+2. "QUANG TRUNG - TRẦN HƯNG ĐẠO D80"
+3. "QUANG TRUNG - LÊ HỒNG PHONG D100"
+4. "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100"
+
+2025-01-17 10:56:38,778 - INFO - STATE 3_2 DATABASE | recommend_response: 
+1. "QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+2. "QUANG TRUNG - TRẦN HƯNG ĐẠO D80"
+3. "QUANG TRUNG - LÊ HỒNG PHONG D100"
+4. "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100"
+
+2025-01-17 10:56:38,778 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:56:38,778 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:56:38,778 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:56:39,055 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 10:56:39,055 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 10:56:39,055 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:56:39,055 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:56:39,055 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 10:58:15,927 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 10:58:16,765 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 10:58:16,765 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:58:16,765 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 10:58:17,865 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 10:58:17,866 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 10:58:19,619 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 10:58:19,619 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 10:58:19,619 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 10:58:19,619 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 10:58:19,620 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 10:58:19,620 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 10:58:19,631 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 10:58:19,631 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 10:58:19,631 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 10:58:22,214 - INFO - STATE 3_2 DATABASE | response_search: 
+1. "QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+2. "QUANG TRUNG - TRẦN HƯNG ĐẠO D80"
+3. "QUANG TRUNG - LÊ HỒNG PHONG D100"
+4. "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100"
+
+2025-01-17 10:58:22,214 - INFO - STATE 3_2 DATABASE | recommend_response: 
+1. "QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+2. "QUANG TRUNG - TRẦN HƯNG ĐẠO D80"
+3. "QUANG TRUNG - LÊ HỒNG PHONG D100"
+4. "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100"
+
+2025-01-17 10:58:22,214 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 10:58:22,214 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:58:22,214 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 10:58:22,494 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 10:58:22,494 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 10:58:22,494 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 10:58:22,494 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 10:58:22,494 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:02:10,026 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:02:11,170 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:02:11,170 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:02:11,170 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:02:12,358 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:02:12,358 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 11:02:18,091 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:02:18,091 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:02:18,091 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:02:18,091 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:02:18,091 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 11:02:18,091 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:02:18,101 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 11:02:18,101 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:02:18,101 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+2025-01-17 11:02:18,919 - INFO - STATE 3_2 DATABASE | response_search: 
+1. "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+
+2025-01-17 11:02:18,919 - INFO - STATE 3_2 DATABASE | recommend_response: 
+1. "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+
+2025-01-17 11:02:18,919 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:02:18,919 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:02:18,919 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:02:21,681 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:02:21,681 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:02:21,681 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:02:21,681 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:02:21,681 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:03:33,611 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:03:34,542 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:03:34,543 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 11:03:34,543 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:03:35,552 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 11:03:35,552 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 11:03:37,796 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:03:37,796 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:03:37,796 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:03:37,797 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:03:37,797 - INFO - STATE 3 | args: 
+{'dev_name': 'xô viết'}
+
+2025-01-17 11:03:37,797 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:03:37,804 - INFO - STATE 3_2 DATABASE | query: 
+xô viết
+
+2025-01-17 11:03:37,804 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:03:37,804 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "Giếng TL2_1",
+    "ĐH XÔ VIẾT NGHỆ TĨNH-HOÀNG DIỆU D100",
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 11:03:37,884 - INFO - STATE 3_2 DATABASE | response_search: 
+1
+
+2025-01-17 11:03:37,884 - INFO - STATE 3_2 DATABASE | recommend_response: 
+1
+
+2025-01-17 11:03:37,884 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:03:37,884 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:03:37,884 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:03:38,024 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+"Nga"
+
+2025-01-17 11:03:38,024 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+"Nga"
+
+2025-01-17 11:03:38,024 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:03:38,024 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:03:38,024 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:04:00,253 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:04:00,963 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:04:00,963 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 11:04:00,963 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:04:01,975 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 11:04:01,975 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 11:04:05,455 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:04:06,277 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:04:06,277 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 11:04:06,277 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:04:07,381 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 11:04:07,382 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 11:04:10,041 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:04:10,042 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:04:10,042 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:04:10,042 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:04:10,042 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 11:04:10,042 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:04:10,055 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 11:04:10,055 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:04:10,055 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 11:04:10,159 - INFO - STATE 3_2 DATABASE | response_search: 
+1
+
+2025-01-17 11:04:10,159 - INFO - STATE 3_2 DATABASE | recommend_response: 
+1
+
+2025-01-17 11:04:10,159 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:04:10,159 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:04:10,159 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:04:10,448 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 11:04:10,448 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 11:04:10,448 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:04:10,448 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:04:10,448 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:04:23,989 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:04:24,740 - INFO - STATE 1 | user: 
+lấy thông tin thiết bị đồng hồ nguyễn công trứ
+
+2025-01-17 11:04:24,740 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='nguyễn công trứ')]
+
+2025-01-17 11:04:24,740 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:04:25,780 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyễn công trứ')]
+
+2025-01-17 11:04:25,780 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Nguyễn Công Trứ |
+
+2025-01-17 11:04:28,741 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:04:28,742 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:04:28,742 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:04:28,742 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:04:28,742 - INFO - STATE 3 | args: 
+{'dev_name': 'nguyễn công trứ'}
+
+2025-01-17 11:04:28,742 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:04:28,754 - INFO - STATE 3_2 DATABASE | query: 
+nguyễn công trứ
+
+2025-01-17 11:04:28,754 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:04:28,754 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH NGUYỄN CÔNG TRỨ _ LÝ THƯỜNG KIỆT (D200) ",
+    "ĐH D100 NGUYỄN SINH SẮC",
+    "ĐH D80 527 NGUYỄN VĂN CỪ",
+    "ĐH D150 NGUYỄN TẤT THÀNH ",
+    "ĐH NGUYỄN CƯ TRINH(HÙNG VƯƠNGD100)",
+    "ĐỒNG HỒ D400 ĐẦU RA BỂ CÔNG TY",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 Nguyễn Trãi - Lạc long Quân",
+    "TĂNG ÁP KRÔNG PẮK"
+]
+
+2025-01-17 11:04:28,856 - INFO - STATE 3_2 DATABASE | response_search: 
+1
+
+2025-01-17 11:04:28,857 - INFO - STATE 3_2 DATABASE | recommend_response: 
+1
+
+2025-01-17 11:04:28,857 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:04:28,857 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:04:28,857 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:04:29,080 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+nguyễn công trứ
+
+2025-01-17 11:04:29,080 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+nguyễn công trứ
+
+2025-01-17 11:04:29,080 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:04:29,080 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:04:29,080 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:11:34,980 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:11:36,013 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:11:36,013 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 11:11:36,013 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:11:37,094 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 11:11:37,094 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 11:11:39,771 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:11:39,771 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:11:39,772 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:11:39,772 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:11:39,772 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 11:11:39,772 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:11:39,793 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 11:11:39,793 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:11:39,794 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 11:11:39,900 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 11:11:39,900 - INFO - STATE 3_2 DATABASE | recommend_response: 
+3
+
+2025-01-17 11:11:39,900 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:11:39,900 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:11:39,900 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:11:40,179 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 11:11:40,179 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 11:11:40,179 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:11:40,179 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:11:40,179 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:11:53,484 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:11:54,396 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:11:54,396 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:11:54,396 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:11:55,589 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:11:55,589 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 11:11:57,834 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:11:57,835 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:11:57,835 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:11:57,835 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:11:57,835 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 11:11:57,835 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:11:57,855 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 11:11:57,855 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:11:57,855 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi",
+    "ĐH BANG NGANG DONG"
+]
+
+2025-01-17 11:11:57,960 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 11:11:57,960 - INFO - STATE 3_2 DATABASE | recommend_response: 
+3
+
+2025-01-17 11:11:57,960 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:11:57,960 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:11:57,960 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:12:00,692 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:12:00,692 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:12:00,692 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:12:00,692 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:12:00,692 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:13:45,005 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:13:45,739 - INFO - STATE 1 | user: 
+lấy thiết bị lê lợi
+
+2025-01-17 11:13:45,739 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='Lê Lợi')]
+
+2025-01-17 11:13:45,739 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:13:46,748 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='Lê Lợi')]
+
+2025-01-17 11:13:46,748 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Lê Lợi |
+
+2025-01-17 11:13:50,249 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:13:50,249 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:13:50,250 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:13:50,250 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:13:50,250 - INFO - STATE 3 | args: 
+{'dev_name': 'Lê Lợi'}
+
+2025-01-17 11:13:50,250 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:13:50,254 - INFO - STATE 3_2 DATABASE | query: 
+Lê Lợi
+
+2025-01-17 11:13:50,254 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:13:50,254 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "GK Thang loi"
+]
+
+2025-01-17 11:13:50,335 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 11:13:50,335 - INFO - STATE 3_2 DATABASE | recommend_response: 
+0
+
+2025-01-17 11:13:50,335 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:13:50,335 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:13:50,335 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:13:50,412 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 11:13:50,412 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 11:13:50,412 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:13:50,412 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:13:50,412 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:14:42,691 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:14:43,955 - INFO - STATE 1 | user: 
+
+
+lấy thiết bị lê lợi
+
+
+2025-01-17 11:14:43,955 - INFO - STATE 1 | response: 
+Không có hàm nào trong danh sách công cụ có thể sử dụng để lấy thiết bị "Lê Lợi".
+
+2025-01-17 11:14:43,955 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:14:48,351 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:14:49,398 - INFO - STATE 1 | user: 
+
+
+lấy thiết bị lê lợi
+
+
+2025-01-17 11:14:49,398 - INFO - STATE 1 | response: 
+Không có hàm nào trong danh sách công cụ có thể sử dụng để lấy thiết bị "Lê Lợi".
+
+2025-01-17 11:14:49,398 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:14:51,539 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:14:52,585 - INFO - STATE 1 | user: 
+
+
+lấy thiết bị lê lợi
+
+
+2025-01-17 11:14:52,585 - INFO - STATE 1 | response: 
+Không có hàm nào trong danh sách công cụ có thể sử dụng để lấy thiết bị "Lê Lợi".
+
+2025-01-17 11:14:52,585 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:15:00,873 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:15:01,587 - INFO - STATE 1 | user: 
+
+
+lấy thông tin thiết bị lê lợi
+
+
+2025-01-17 11:15:01,587 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='Lê Lợi')]
+
+2025-01-17 11:15:01,587 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:15:02,593 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='Lê Lợi')]
+
+2025-01-17 11:15:02,593 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Lê Lợi |
+
+2025-01-17 11:15:06,720 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:15:06,720 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:15:06,720 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:15:06,721 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:15:06,721 - INFO - STATE 3 | args: 
+{'dev_name': 'Lê Lợi'}
+
+2025-01-17 11:15:06,721 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:15:06,728 - INFO - STATE 3_2 DATABASE | query: 
+Lê Lợi
+
+2025-01-17 11:15:06,728 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:15:06,728 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "GK Thang loi"
+]
+
+2025-01-17 11:15:06,807 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 11:15:06,807 - INFO - STATE 3_2 DATABASE | recommend_response: 
+0
+
+2025-01-17 11:15:06,807 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:15:06,807 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:15:06,807 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:15:06,884 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 11:15:06,884 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 11:15:06,884 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:15:06,884 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:15:06,884 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:16:10,311 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:16:11,252 - INFO - STATE 1 | user: 
+
+
+lấy thông tin thiết bị lê lợi
+
+
+2025-01-17 11:16:11,252 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='Lê Lợi')]
+
+2025-01-17 11:16:11,252 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:16:12,255 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='Lê Lợi')]
+
+2025-01-17 11:16:12,255 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Lê Lợi |
+
+2025-01-17 11:16:14,340 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:16:14,340 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:16:14,341 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:16:14,341 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:16:14,341 - INFO - STATE 3 | args: 
+{'dev_name': 'Lê Lợi'}
+
+2025-01-17 11:16:14,341 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:16:14,350 - INFO - STATE 3_2 DATABASE | query: 
+Lê Lợi
+
+2025-01-17 11:16:14,350 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:16:14,350 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "GK Thang loi",
+    "ĐH D100 Y NUÊ - LÊ DUẪN",
+    "ĐỒNG HỒ LÊ QUÝ ĐÔN D100"
+]
+
+2025-01-17 11:16:14,434 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 11:16:14,434 - INFO - STATE 3_2 DATABASE | recommend_response: 
+0
+
+2025-01-17 11:16:14,434 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:16:14,434 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:16:14,434 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:16:14,689 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+'GK Thang loi'
+
+2025-01-17 11:16:14,689 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+'GK Thang loi'
+
+2025-01-17 11:16:14,689 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:16:14,689 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:16:14,689 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:17:08,058 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:17:08,802 - INFO - STATE 1 | user: 
+
+
+lấy thông tin thiết bị lê duẩn
+
+2025-01-17 11:17:08,802 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='Lê Duẩn')]
+
+2025-01-17 11:17:08,802 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:17:09,808 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='Lê Duẩn')]
+
+2025-01-17 11:17:09,808 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Lê Duẩn |
+
+2025-01-17 11:17:11,737 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:17:11,737 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:17:11,737 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:17:11,737 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:17:11,737 - INFO - STATE 3 | args: 
+{'dev_name': 'Lê Duẩn'}
+
+2025-01-17 11:17:11,737 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:17:11,748 - INFO - STATE 3_2 DATABASE | query: 
+Lê Duẩn
+
+2025-01-17 11:17:11,748 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:17:11,748 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH Y WANG _ LÊ DUẨN (D100)",
+    "ĐH D100 Y NUÊ - LÊ DUẪN",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐỒNG HỒ LÊ QUÝ ĐÔN D100",
+    "ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200",
+    "ĐH D100 UBND XÃ HÒA XUÂN",
+    "DHồ EaM_Sen DN400",
+    "ĐH ĐÀO DUY TỪ D100",
+    "ĐH BANG NGANG DONG",
+    "ĐH D80 Duy Tân - Hùng Vương"
+]
+
+2025-01-17 11:17:11,857 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 11:17:11,857 - INFO - STATE 3_2 DATABASE | recommend_response: 
+3
+
+2025-01-17 11:17:11,857 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:17:11,857 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:17:11,857 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:17:15,644 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+"ĐH Y WANG _ LÊ DUẨN (D100)"
+"ĐH D100 Y NUÊ - LÊ DUẪN"
+"ĐH LÊ DUẨN - QUANG TRUNG D80"
+"ĐỒNG HỒ LÊ QUÝ ĐÔN D100"
+"ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200"
+"ĐH D100 UBND XÃ HÒA XUÂN"
+"ĐH D80 Duy Tân - Hùng Vương"
+
+2025-01-17 11:17:15,644 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+"ĐH Y WANG _ LÊ DUẨN (D100)"
+"ĐH D100 Y NUÊ - LÊ DUẪN"
+"ĐH LÊ DUẨN - QUANG TRUNG D80"
+"ĐỒNG HỒ LÊ QUÝ ĐÔN D100"
+"ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200"
+"ĐH D100 UBND XÃ HÒA XUÂN"
+"ĐH D80 Duy Tân - Hùng Vương"
+
+2025-01-17 11:17:15,644 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:17:15,644 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:17:15,644 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:18:36,214 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:18:37,154 - INFO - STATE 1 | user: 
+
+
+lấy thông tin thiết bị lê duẩn
+
+2025-01-17 11:18:37,154 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='Lê Duẩn')]
+
+2025-01-17 11:18:37,154 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:18:38,165 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='Lê Duẩn')]
+
+2025-01-17 11:18:38,165 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Lê Duẩn |
+
+2025-01-17 11:18:40,070 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:18:40,070 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:18:40,070 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:18:40,071 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:18:40,071 - INFO - STATE 3 | args: 
+{'dev_name': 'Lê Duẩn'}
+
+2025-01-17 11:18:40,071 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:18:40,079 - INFO - STATE 3_2 DATABASE | query: 
+Lê Duẩn
+
+2025-01-17 11:18:40,079 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:18:40,079 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH Y WANG _ LÊ DUẨN (D100)",
+    "ĐH D100 Y NUÊ - LÊ DUẪN",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐỒNG HỒ LÊ QUÝ ĐÔN D100",
+    "ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200",
+    "ĐH D100 UBND XÃ HÒA XUÂN",
+    "DHồ EaM_Sen DN400",
+    "ĐH ĐÀO DUY TỪ D100",
+    "ĐH BANG NGANG DONG",
+    "ĐH D80 Duy Tân - Hùng Vương"
+]
+
+2025-01-17 11:18:40,185 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 11:18:40,185 - INFO - STATE 3_2 DATABASE | recommend_response: 
+3
+
+2025-01-17 11:18:40,185 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:18:40,185 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:18:40,185 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:18:43,969 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+"ĐH Y WANG _ LÊ DUẨN (D100)"
+"ĐH D100 Y NUÊ - LÊ DUẪN"
+"ĐH LÊ DUẨN - QUANG TRUNG D80"
+"ĐỒNG HỒ LÊ QUÝ ĐÔN D100"
+"ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200"
+"ĐH D100 UBND XÃ HÒA XUÂN"
+"ĐH D80 Duy Tân - Hùng Vương"
+
+2025-01-17 11:18:43,969 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+"ĐH Y WANG _ LÊ DUẨN (D100)"
+"ĐH D100 Y NUÊ - LÊ DUẪN"
+"ĐH LÊ DUẨN - QUANG TRUNG D80"
+"ĐỒNG HỒ LÊ QUÝ ĐÔN D100"
+"ĐH LÊ DUẨN (ĐỐI DIỆN GIÁO XỨ KIM MAI) DN200"
+"ĐH D100 UBND XÃ HÒA XUÂN"
+"ĐH D80 Duy Tân - Hùng Vương"
+
+2025-01-17 11:18:43,969 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:18:43,969 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:18:43,969 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:21:25,343 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:21:26,503 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:21:26,503 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:21:26,503 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:21:27,694 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:21:27,694 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 11:21:29,780 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:21:29,781 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:21:29,781 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:21:29,781 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:21:29,782 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 11:21:29,782 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:21:29,798 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 11:21:29,798 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:21:29,798 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D80 Duy Tân - Hùng Vương",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi"
+]
+
+2025-01-17 11:21:29,905 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 11:21:29,905 - INFO - STATE 3_2 DATABASE | recommend_response: 
+2
+
+2025-01-17 11:21:29,905 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:21:29,905 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:21:29,905 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:21:32,612 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:21:32,612 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:21:32,612 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:21:32,612 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:21:32,612 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:23:28,619 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:23:29,752 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:23:29,752 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:23:29,752 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:23:30,944 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:23:30,944 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 11:23:33,000 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:23:33,001 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:23:33,001 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:23:33,001 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:23:33,001 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 11:23:33,002 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:23:33,015 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 11:23:33,015 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:23:33,015 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D80 Duy Tân - Hùng Vương",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi"
+]
+
+2025-01-17 11:23:33,120 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 11:23:33,120 - INFO - STATE 3_2 DATABASE | recommend_response: 
+2
+
+2025-01-17 11:23:33,120 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:23:33,120 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:23:33,120 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:23:35,838 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:23:35,838 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:23:35,838 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:23:35,839 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:23:35,839 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:24:49,300 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:24:50,659 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+
+2025-01-17 11:24:50,659 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200')]
+
+2025-01-17 11:24:50,659 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:24:52,200 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200')]
+
+2025-01-17 11:24:52,201 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200 |
+
+2025-01-17 11:24:54,493 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:24:54,493 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:24:54,493 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:24:54,493 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:24:54,494 - INFO - STATE 3 | args: 
+{'dev_name': 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200'}
+
+2025-01-17 11:24:54,494 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:24:54,517 - INFO - STATE 3_2 DATABASE | query: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+
+2025-01-17 11:24:54,517 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:24:54,517 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 11:24:54,601 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 11:24:54,601 - INFO - STATE 3_2 DATABASE | recommend_response: 
+0
+
+2025-01-17 11:24:54,601 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:24:54,601 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:24:54,601 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:24:54,684 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 11:24:54,684 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 11:24:54,684 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:24:54,684 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:24:54,684 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 11:28:35,157 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 11:28:36,299 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 11:28:36,299 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:28:36,299 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 11:28:37,490 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 11:28:37,490 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 11:28:39,181 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 11:28:39,181 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 11:28:39,182 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 11:28:39,182 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 11:28:39,182 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 11:28:39,182 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 11:28:39,208 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 11:28:39,208 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 11:28:39,208 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D80 Duy Tân - Hùng Vương",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi"
+]
+
+2025-01-17 11:28:39,331 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 11:28:39,331 - INFO - STATE 3_2 DATABASE | recommend_response: 
+2
+
+2025-01-17 11:28:39,331 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 11:28:39,331 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:28:39,331 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 11:28:42,063 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:28:42,063 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 11:28:42,063 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 11:28:42,063 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 11:28:42,063 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 12:09:54,550 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 12:09:55,548 - INFO - STATE 1 | user: 
+Bạn là ai?
+
+2025-01-17 12:09:55,548 - INFO - STATE 1 | response: 
+Tôi là một chuyên gia trong việc xây dựng và gọi các hàm.
+
+2025-01-17 12:09:55,548 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 12:10:00,617 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 12:10:01,875 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 12:10:01,875 - INFO - STATE 1 | response: 
+<functioncall> {"name": "search_device_by_name", "arguments": {"dev_name": "quang trung - xô viết"}}
+
+2025-01-17 12:10:01,875 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 12:22:58,672 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 12:22:59,555 - INFO - STATE 1 | user: 
+Cài đặt lại thiết bị zxc1
+
+2025-01-17 12:22:59,555 - INFO - STATE 1 | response: 
+[config_reset_device(dev_id='zxc1')]
+
+2025-01-17 12:22:59,555 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 12:23:00,514 - INFO - STATE 2 PRE | func_conf: 
+[config_reset_device(dev_id='zxc1')]
+
+2025-01-17 12:23:00,514 - INFO - STATE 2 PRE | response: 
+Chức năng: Khởi động lại thiết bị.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_id | zxc1 |
+
+2025-01-17 12:23:13,633 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 12:23:13,634 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 12:23:13,634 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 12:23:13,634 - INFO - STATE 3 | function_name: 
+config_reset_device
+
+2025-01-17 12:23:13,634 - INFO - STATE 3 | args: 
+{'dev_id': 'zxc1'}
+
+2025-01-17 12:23:13,634 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 12:23:13,634 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 12:23:13,634 - INFO - STATE 3 | result: 
+{'status': 'success', 'dev_id': 'zxc1', 'message': 'Device reset completed successfully.'}
+
+2025-01-17 12:23:13,635 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 12:23:13,768 - INFO - STATE FIX | ipython: 
+{'status': 'success', 'dev_id': 'zxc1', 'message': 'Device reset completed successfully.'}
+
+2025-01-17 12:23:13,768 - INFO - STATE FIX | response: 
+'Success'
+2025-01-17 12:23:13,768 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 12:23:15,195 - INFO - STATE 4 | python_tag: 
+[config_reset_device(dev_id='zxc1')]
+
+2025-01-17 12:23:15,195 - INFO - STATE 4 | ipython: 
+{'status': 'success', 'dev_id': 'zxc1', 'message': 'Device reset completed successfully.'}
+
+2025-01-17 12:23:15,195 - INFO - STATE 4 | response: 
+Kết quả cho thấy rằng thiết bị đã được đặt lại thành công. Cột trạng thái cho biết rằng thiết bị đã được đặt lại thành công, và cột thông báo cho biết rằng thiết bị đã được đặt lại thành công.
+
+2025-01-17 12:23:15,195 - INFO - STATE 4 --> STATE 1
+
+2025-01-17 12:23:15,195 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 12:24:21,923 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 12:24:23,983 - INFO - STATE 1 | user: 
+tôi muốn biết thời tiết ở Hà Nội
+
+2025-01-17 12:24:23,984 - INFO - STATE 1 | response: 
+[get_weather(location='Hà Nội', start_time='2022-01-01 00:00:00', stop_time='2022-01-01 23:59:59', view_mode='detailed')]
+
+2025-01-17 12:24:23,984 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 12:24:26,294 - INFO - STATE 2 PRE | func_conf: 
+[get_weather(location='Hà Nội', start_time='2022-01-01 00:00:00', stop_time='2022-01-01 23:59:59', view_mode='detailed')]
+
+2025-01-17 12:24:26,294 - INFO - STATE 2 PRE | response: 
+Chức năng: Lấy thông tin thời tiết.
+
+| Thông số | Giá trị |
+| --- | --- |
+| địa điểm | Hà Nội |
+| start\_time | 2022-01-01 00:00:00 |
+| stop\_time | 2022-01-01 23:59:59 |
+| view\_mode | chi tiết |
+
+2025-01-17 12:24:33,916 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 12:24:34,705 - INFO - STATE 1 | user: 
+lấy thông tin thiết bị đồng hồ nguyễn công trứ
+
+2025-01-17 12:24:34,705 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 12:24:34,705 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 12:24:35,771 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 12:24:35,771 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | nguyen_cong_tru |
+
+2025-01-17 12:24:48,431 - INFO - STATE 2 | user: 
+nguyễn công trứ
+
+2025-01-17 12:24:48,431 - INFO - STATE 2 | response: 
+Xin lỗi, tôi không thể trả lời câu hỏi này vì không có thông tin về thiết bị có tên là "nguyễn công trứ" trong cơ sở dữ liệu.
+
+2025-01-17 12:24:49,154 - INFO - STATE 2 PRE | func_conf: 
+Xin lỗi, tôi không thể trả lời câu hỏi này vì không có thông tin về thiết bị có tên là "nguyễn công trứ" trong cơ sở dữ liệu.
+
+2025-01-17 12:24:49,155 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+Thông số - Tên thiết bị: Nguyễn Công Trứ
+
+2025-01-17 12:25:53,266 - INFO - STATE 2 | user: 
+name là nguyễn công trứ
+
+2025-01-17 12:25:53,266 - INFO - STATE 2 | response: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 12:25:54,014 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 12:25:54,014 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+Thông số - dev_name: nguyen_cong_tru
+
+2025-01-17 13:48:33,701 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:48:34,654 - INFO - STATE 1 | user: 
+Lấy thông tin thiết bị f-16020
+
+2025-01-17 13:48:34,654 - INFO - STATE 1 | response: 
+[search_device_by_id(dev_id='f-16020')]
+
+2025-01-17 13:48:34,654 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 13:48:35,365 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_id(dev_id='f-16020')]
+
+2025-01-17 13:48:35,365 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo devID.
+Thông số - dev_id: f-16020
+
+2025-01-17 13:50:44,816 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:50:46,860 - INFO - STATE 1 | user: 
+tôi muốn biết thời tiết ở Hà Nội
+
+2025-01-17 13:50:46,860 - INFO - STATE 1 | response: 
+[get_weather(location='Hà Nội', start_time='2022-01-01 00:00:00', stop_time='2022-01-01 23:59:59', view_mode='detailed')]
+
+2025-01-17 13:50:46,860 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 13:50:49,149 - INFO - STATE 2 PRE | func_conf: 
+[get_weather(location='Hà Nội', start_time='2022-01-01 00:00:00', stop_time='2022-01-01 23:59:59', view_mode='detailed')]
+
+2025-01-17 13:50:49,149 - INFO - STATE 2 PRE | response: 
+Chức năng: Lấy thông tin thời tiết.
+
+| Thông số | Giá trị |
+| --- | --- |
+| Địa điểm | Hà Nội |
+| Thời gian bắt đầu | 2022-01-01 00:00:00 |
+| Thời gian kết thúc | 2022-01-01 23:59:59 |
+| Mode xem | chi tiết |
+
+2025-01-17 13:50:58,198 - INFO - STATE 2 | user: 
+Cài đặt lại thiết bị zxc1
+
+2025-01-17 13:50:58,198 - INFO - STATE 2 | response: 
+[config_reset_device(dev_id='zxc1')]
+
+2025-01-17 13:50:59,182 - INFO - STATE 2 PRE | func_conf: 
+[config_reset_device(dev_id='zxc1')]
+
+2025-01-17 13:50:59,182 - INFO - STATE 2 PRE | response: 
+Chức năng: Khởi động lại thiết bị.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_id | zxc1 |
+
+2025-01-17 13:51:05,202 - INFO - STATE 2 | user: 
+lấy thông tin thiết bị đồng hồ nguyễn công trứ
+
+2025-01-17 13:51:05,202 - INFO - STATE 2 | response: 
+[search_device_by_id(dev_id='nguyencongtruc')]
+
+2025-01-17 13:51:06,300 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_id(dev_id='nguyencongtruc')]
+
+2025-01-17 13:51:06,300 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo devID.
+| Thông số | Giá trị |
+| --- | --- |
+| dev_id | nguyencongtruc |
+
+2025-01-17 13:51:12,815 - INFO - STATE 2 | user: 
+nguyễn công trứ
+
+2025-01-17 13:51:12,815 - INFO - STATE 2 | response: 
+[search_device_by_name(dev_name='nguyencongtruc')]
+
+2025-01-17 13:51:13,926 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyencongtruc')]
+
+2025-01-17 13:51:13,926 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | 'nguyencongtruc' |
+
+2025-01-17 13:52:41,973 - INFO - STATE 2 | user: 
+name ghi đúng cho tôi Nguyễn Công Trứ
+
+2025-01-17 13:52:41,973 - INFO - STATE 2 | response: 
+[search_device_by_name(dev_name='Nguyễn Công Trứ')]
+
+2025-01-17 13:52:42,993 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='Nguyễn Công Trứ')]
+
+2025-01-17 13:52:42,993 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | Nguyễn Công Trứ |
+
+2025-01-17 13:52:46,451 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 13:52:46,451 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 13:52:46,451 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 13:52:46,452 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 13:52:46,452 - INFO - STATE 3 | args: 
+{'dev_name': 'Nguyễn Công Trứ'}
+
+2025-01-17 13:52:46,452 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 13:52:46,468 - INFO - STATE 3_2 DATABASE | query: 
+Nguyễn Công Trứ
+
+2025-01-17 13:52:46,468 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 13:52:46,469 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH NGUYỄN CÔNG TRỨ _ LÝ THƯỜNG KIỆT (D200) ",
+    "ĐH D100 NGUYỄN SINH SẮC",
+    "ĐH D80 527 NGUYỄN VĂN CỪ",
+    "ĐH D150 NGUYỄN TẤT THÀNH ",
+    "ĐH NGUYỄN CƯ TRINH(HÙNG VƯƠNGD100)",
+    "ĐỒNG HỒ D400 ĐẦU RA BỂ CÔNG TY",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 Nguyễn Trãi - Lạc long Quân",
+    "TĂNG ÁP KRÔNG PẮK"
+]
+
+2025-01-17 13:52:46,598 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 13:52:46,598 - INFO - STATE 3_2 DATABASE | recommend_response: 
+2
+
+2025-01-17 13:52:46,598 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 13:52:46,598 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 13:52:46,598 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 13:52:47,325 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG
+
+2025-01-17 13:52:47,326 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG
+
+2025-01-17 13:52:47,326 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 13:52:47,326 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 13:52:47,326 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 13:53:16,575 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:53:17,273 - INFO - STATE 1 | user: 
+lấy cái đó
+
+2025-01-17 13:53:17,273 - INFO - STATE 1 | response: 
+Tôi không thể lấy thông tin đó cho bạn.
+
+2025-01-17 13:53:17,273 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 13:53:26,868 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:53:27,552 - INFO - STATE 1 | user: 
+lấy thông tin thiết bị đó
+
+2025-01-17 13:53:27,552 - INFO - STATE 1 | response: 
+Tôi không thể lấy thông tin đó cho bạn.
+
+2025-01-17 13:53:27,552 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 13:56:13,763 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:56:14,470 - INFO - STATE 1 | user: 
+lấy thông tin thiết bị
+
+2025-01-17 13:56:14,470 - INFO - STATE 1 | response: 
+Tôi không thể lấy thông tin đó cho bạn.
+
+2025-01-17 13:56:14,470 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 13:56:22,218 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:56:22,910 - INFO - STATE 1 | user: 
+dùng công cụ
+
+2025-01-17 13:56:22,910 - INFO - STATE 1 | response: 
+Tôi không thể lấy thông tin đó cho bạn.
+
+2025-01-17 13:56:22,910 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 13:56:26,510 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:56:27,301 - INFO - STATE 1 | user: 
+lấy thông tin thiết bị đồng hồ nguyễn công trứ
+
+2025-01-17 13:56:27,301 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 13:56:27,301 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 13:56:28,376 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 13:56:28,376 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | nguyen_cong_tru |
+
+2025-01-17 13:56:31,001 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 13:56:31,001 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 13:56:31,001 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 13:56:31,002 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 13:56:31,002 - INFO - STATE 3 | args: 
+{'dev_name': 'nguyen_cong_tru'}
+
+2025-01-17 13:56:31,002 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 13:56:31,014 - INFO - STATE 3_2 DATABASE | query: 
+nguyen_cong_tru
+
+2025-01-17 13:56:31,014 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 13:56:31,014 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH D100 Nguyễn Trãi - Lạc long Quân",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH BANG NGANG DONG",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH NGUYỄN CÔNG TRỨ _ LÝ THƯỜNG KIỆT (D200) ",
+    "ĐH NGUYỄN CƯ TRINH(HÙNG VƯƠNGD100)",
+    "ĐH D100 NGUYỄN VĂN CỪ - VÕ THỊ SÁU",
+    "Áp lực Ngã 3 HB- Tuyến Cupul",
+    "GIẾNG KHOAN HT-3",
+    "GIẾNG KHOAN HT-8"
+]
+
+2025-01-17 13:56:31,142 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 13:56:31,142 - INFO - STATE 3_2 DATABASE | recommend_response: 
+3
+
+2025-01-17 13:56:31,142 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 13:56:31,142 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 13:56:31,142 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 13:56:31,574 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH D100 Nguyễn Trãi - Lạc long Quân
+
+2025-01-17 13:56:31,574 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH D100 Nguyễn Trãi - Lạc long Quân
+
+2025-01-17 13:56:31,574 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 13:56:31,574 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 13:56:31,574 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 13:56:41,549 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 13:56:42,347 - INFO - STATE 1 | user: 
+đổi name thành tên đó
+
+2025-01-17 13:56:42,347 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 13:56:42,347 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 13:56:43,421 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 13:56:43,421 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | nguyen_cong_tru |
+
+2025-01-17 13:57:09,943 - INFO - STATE 2 | user: 
+không phải, lấy cái gợi ý ở trên
+
+2025-01-17 13:57:09,943 - INFO - STATE 2 | response: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 13:57:11,023 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='nguyen_cong_tru')]
+
+2025-01-17 13:57:11,023 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm thiết bị theo tên.
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | nguyen_cong_tru |
+
+2025-01-17 14:20:55,268 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:20:56,202 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:20:56,202 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:20:56,202 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:20:57,212 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:20:57,212 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 14:21:02,215 - INFO - STATE 2 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:21:02,215 - INFO - STATE 2 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:21:03,231 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:21:03,232 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 14:21:06,126 - INFO - STATE 2 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:21:06,126 - INFO - STATE 2 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:21:07,116 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:21:07,116 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 14:21:08,882 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:21:09,688 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:21:09,688 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:21:09,688 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:21:10,769 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:21:10,769 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 14:21:13,071 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:21:13,071 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:21:13,071 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:21:13,071 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:21:13,072 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 14:21:13,072 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:21:13,092 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 14:21:13,092 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:21:13,092 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 14:21:13,217 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 14:21:13,217 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:21:13,217 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:21:13,217 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:21:13,499 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 14:21:13,499 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 14:21:13,499 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:21:13,499 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:21:13,499 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:22:28,983 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:22:30,055 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:22:30,055 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:22:30,055 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:22:31,158 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:22:31,159 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 14:22:33,014 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:22:33,014 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:22:33,014 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:22:33,015 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:22:33,015 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 14:22:33,015 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:22:33,034 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 14:22:33,035 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:22:33,035 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 14:22:33,160 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:22:33,160 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:22:33,160 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:22:33,160 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:22:33,441 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+quang trung - xô viết
+
+2025-01-17 14:22:33,441 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+quang trung - xô viết
+
+2025-01-17 14:22:33,441 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:22:33,441 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:22:33,441 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:23:22,273 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:23:23,357 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:23:23,357 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:23:23,357 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:23:24,455 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:23:24,455 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 14:23:27,316 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:23:27,316 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:23:27,316 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:23:27,316 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:23:27,317 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 14:23:27,317 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:23:27,334 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 14:23:27,334 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:23:27,334 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 14:23:27,461 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:23:27,461 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': '    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",'}
+
+2025-01-17 14:23:27,461 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:23:27,461 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': 'Device with name \'    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:23:27,461 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:23:27,527 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': 'Device with name \'    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:23:27,527 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:23:27,527 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:23:33,695 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",)]
+
+2025-01-17 14:23:33,695 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': 'Device with name \'    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:23:33,695 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name'   "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",' not found.".
+
+Điều này nghĩa là tool không thể tìm thấy một thiết bị có tên "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200" trên hệ thống của mình.
+
+Các thông số liên quan đến lỗi này bao gồm:
+
+* Status: Error (Sự kiện lỗi)
+* Error: Device with name'   "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",' not found. (Lỗi thiết bị với tên'   "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",' không được tìm thấy.)
+
+Để giải quyết lỗi này, bạn cần kiểm tra lại tên thiết bị và đảm bảo rằng nó được nhập chính xác vào tool.
+
+2025-01-17 14:23:33,695 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:23:33,695 - INFO - STATE 3 & 4 | Lần: 2
+
+2025-01-17 14:23:35,052 - INFO - STATE 3 | response: 
+[search_device_by_name(dev_name='ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200')]
+
+2025-01-17 14:23:35,052 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:23:35,052 - INFO - STATE 3 | args: 
+{'dev_name': 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200'}
+
+2025-01-17 14:23:35,052 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:23:35,061 - INFO - STATE 3_2 DATABASE | query: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+
+2025-01-17 14:23:35,061 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:23:35,061 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 14:23:35,157 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 14:23:35,157 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:23:35,157 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:23:35,157 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:23:35,236 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 14:23:35,236 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 14:23:35,236 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:23:35,236 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:23:35,236 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:26:02,316 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:26:03,234 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:26:03,234 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:26:03,234 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:26:04,234 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:26:04,234 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 14:26:07,159 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:26:07,966 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:26:07,966 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:26:07,966 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:26:09,049 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:26:09,049 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 14:26:11,197 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:26:11,198 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:26:11,198 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:26:11,198 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:26:11,199 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 14:26:11,199 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:26:11,227 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 14:26:11,227 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:26:11,227 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 14:26:11,353 - INFO - STATE 3_2 DATABASE | response_search: 
+3
+
+2025-01-17 14:26:11,353 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': '    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",'}
+
+2025-01-17 14:26:11,353 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:26:11,354 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': 'Device with name \'    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",\' not found.'}
+
+2025-01-17 14:26:11,354 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:26:11,419 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': 'Device with name \'    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",\' not found.'}
+
+2025-01-17 14:26:11,420 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:26:11,420 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:26:15,435 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",)]
+
+2025-01-17 14:26:15,435 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': 'Device with name \'    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",\' not found.'}
+
+2025-01-17 14:26:15,435 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'QUANG TRUNG - TRẦN HƯNG ĐẠO D80' not found." Điều này nghĩa là tool không thể tìm thấy thiết bị có tên "QUANG TRUNG - TRẦN HƯNG ĐẠO D80" trong danh sách thiết bị được quản lý.
+
+Thông tin chi tiết về lỗi:
+
+* Trạng thái: Error
+* Lỗi: Device with name 'QUANG TRUNG - TRẦN HƯNG ĐẠO D80' not found.
+
+Không có thông tin nào khác được trả về từ tool.
+
+2025-01-17 14:26:15,435 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:26:15,435 - INFO - STATE 3 & 4 | Lần: 2
+
+2025-01-17 14:26:16,648 - INFO - STATE 3 | response: 
+[search_device_by_name(dev_name="QUANG TRUNG - TRẦN HƯNG ĐẠO D80")]
+
+2025-01-17 14:26:16,648 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:26:16,648 - INFO - STATE 3 | args: 
+{'dev_name': '"QUANG TRUNG - TRẦN HƯNG ĐẠO D80"'}
+
+2025-01-17 14:26:16,648 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:26:16,655 - INFO - STATE 3_2 DATABASE | query: 
+"QUANG TRUNG - TRẦN HƯNG ĐẠO D80"
+
+2025-01-17 14:26:16,655 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:26:16,655 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80"
+]
+
+2025-01-17 14:26:16,736 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 14:26:16,736 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:26:16,736 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:26:16,736 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:26:16,810 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 14:26:16,810 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 14:26:16,811 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:26:16,811 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:26:16,811 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:27:45,284 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:27:46,435 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:27:46,435 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:27:46,435 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:27:47,604 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:27:47,604 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 14:27:50,247 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:27:50,247 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:27:50,248 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:27:50,248 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:27:50,248 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 14:27:50,248 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:27:50,270 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 14:27:50,270 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:27:50,270 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D80 Duy Tân - Hùng Vương",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi"
+]
+
+2025-01-17 14:27:50,395 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:27:50,395 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",'}
+
+2025-01-17 14:27:50,395 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:27:50,396 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': 'Device with name \'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:27:50,396 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:27:50,461 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': 'Device with name \'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:27:50,461 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:27:50,461 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:27:54,880 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",)]
+
+2025-01-17 14:27:54,880 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': 'Device with name \'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:27:54,880 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200", không được tìm thấy".
+
+Thông tin chi tiết về lỗi:
+
+* Trạng thái: Error
+* Lỗi: Device with name 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200", không được tìm thấy.
+
+Điều này có nghĩa là tool không thể tìm thấy một thiết bị có tên "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200", và do đó, không thể trả về bất kỳ thông tin nào từ thiết bị đó.
+
+2025-01-17 14:27:54,880 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:27:54,880 - INFO - STATE 3 & 4 | Lần: 2
+
+2025-01-17 14:27:56,231 - INFO - STATE 3 | response: 
+[search_device_by_name(dev_name='ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200')]
+
+2025-01-17 14:27:56,231 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:27:56,231 - INFO - STATE 3 | args: 
+{'dev_name': 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200'}
+
+2025-01-17 14:27:56,231 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:27:56,240 - INFO - STATE 3_2 DATABASE | query: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+
+2025-01-17 14:27:56,240 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:27:56,240 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 14:27:56,337 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 14:27:56,337 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:27:56,337 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:27:56,337 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:27:56,416 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 14:27:56,416 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 14:27:56,416 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:27:56,416 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:27:56,416 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:31:47,268 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:31:48,330 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:31:48,330 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:31:48,330 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:31:49,410 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:31:49,410 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 14:31:51,360 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:31:51,362 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:31:51,362 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:31:51,362 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:31:51,363 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 14:31:51,363 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:31:51,385 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 14:31:51,385 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:31:51,385 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 14:31:51,512 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:31:51,512 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': '"ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",'}
+
+2025-01-17 14:31:51,513 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:31:51,513 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': 'Device with name \'"ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:31:51,513 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:31:51,580 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': 'Device with name \'"ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:31:51,580 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:31:51,580 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:31:56,104 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name="ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",)]
+
+2025-01-17 14:31:56,104 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': 'Device with name \'"ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'}
+
+2025-01-17 14:31:56,104 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name \'"ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",\' not found.'". Điều này nghĩa là tool không thể tìm thấy một thiết bị có tên "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200".
+
+Thông tin chi tiết về lỗi không được cung cấp, nhưng có thể là do thiết bị này không tồn tại, hoặc thiết bị này không được đăng ký trong hệ thống của tool.
+
+Để giải quyết lỗi này, bạn có thể cần phải kiểm tra lại thông tin về thiết bị, hoặc liên hệ với người quản lý hệ thống để được hỗ trợ.
+
+2025-01-17 14:31:56,104 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:31:56,104 - INFO - STATE 3 & 4 | Lần: 2
+
+2025-01-17 14:31:57,489 - INFO - STATE 3 | response: 
+[search_device_by_name(dev_name='ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200')]
+
+2025-01-17 14:31:57,489 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:31:57,489 - INFO - STATE 3 | args: 
+{'dev_name': 'ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200'}
+
+2025-01-17 14:31:57,489 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:31:57,498 - INFO - STATE 3_2 DATABASE | query: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+
+2025-01-17 14:31:57,498 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:31:57,498 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200"
+]
+
+2025-01-17 14:31:57,593 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 14:31:57,593 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:31:57,593 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:31:57,593 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:31:57,672 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+không
+
+2025-01-17 14:31:57,672 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+không
+
+2025-01-17 14:31:57,672 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:31:57,672 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:31:57,672 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:35:53,962 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:35:55,012 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:35:55,012 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:35:55,012 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:35:56,096 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='quang trung - xô viết')]
+
+2025-01-17 14:35:56,096 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | quang trung - xô viết |
+
+2025-01-17 14:35:57,896 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:35:57,897 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:35:57,899 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:35:57,900 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:35:57,901 - INFO - STATE 3 | args: 
+{'dev_name': 'quang trung - xô viết'}
+
+2025-01-17 14:35:57,901 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:35:57,923 - INFO - STATE 3_2 DATABASE | query: 
+quang trung - xô viết
+
+2025-01-17 14:35:57,923 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:35:57,923 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "HÒA ĐÔNG 1 D100 (CÔ TAM)",
+    "Van cắt áp MAI HẮC ĐẾ- NGUYỄN VIẾT XUÂN",
+    "Van cắt áp - Xã HÒA XUÂN"
+]
+
+2025-01-17 14:35:58,044 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:35:58,044 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': 'QUANG TRUNG - TRẦN HƯNG ĐẠO D80'}
+
+2025-01-17 14:35:58,044 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:35:58,044 - INFO - STATE 3 | result: 
+{'status': 'success', 'device': {'devID': 'F98412', 'Name': 'QUANG TRUNG - TRẦN HƯNG ĐẠO D80', 'Group': 'CHI NHÁNH CẤP NƯỚC KRÔNG PẮK', 'SubGroup': 'VÙNG 2', 'LastUpdated': '2025-01-03 15:45:20', 'Status': 'ONL', 'Warning': 'N.A'}}
+
+2025-01-17 14:35:58,044 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:35:58,178 - INFO - STATE FIX | ipython: 
+{'status': 'success', 'device': {'devID': 'F98412', 'Name': 'QUANG TRUNG - TRẦN HƯNG ĐẠO D80', 'Group': 'CHI NHÁNH CẤP NƯỚC KRÔNG PẮK', 'SubGroup': 'VÙNG 2', 'LastUpdated': '2025-01-03 15:45:20', 'Status': 'ONL', 'Warning': 'N.A'}}
+
+2025-01-17 14:35:58,178 - INFO - STATE FIX | response: 
+"Success"
+2025-01-17 14:35:58,178 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:36:05,014 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=QUANG TRUNG - TRẦN HƯNG ĐẠO D80)]
+
+2025-01-17 14:36:05,014 - INFO - STATE 4 | ipython: 
+{'status': 'success', 'device': {'devID': 'F98412', 'Name': 'QUANG TRUNG - TRẦN HƯNG ĐẠO D80', 'Group': 'CHI NHÁNH CẤP NƯỚC KRÔNG PẮK', 'SubGroup': 'VÙNG 2', 'LastUpdated': '2025-01-03 15:45:20', 'Status': 'ONL', 'Warning': 'N.A'}}
+
+2025-01-17 14:36:05,014 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool là một báo cáo chi tiết về thiết bị "QUANG TRUNG - TRẦN HƯNG ĐẠO D80". Dưới đây là thông tin chi tiết trong báo cáo:
+
+- **Trạng thái**: Thiết bị đang hoạt động (Status: ONL)
+- **Thông tin thiết bị**: 
+  - **Mã thiết bị**: F98412
+  - **Tên thiết bị**: QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+  - **Grup**: CHI NHÁNH CẤP NƯỚC KRÔNG PẮK
+  - **Phân nhóm**: VÙNG 2
+  - **Thời gian cập nhật**: 2025-01-03 15:45:20
+- **Lưu ý**: Không có thông báo nào về thiết bị này (Warning: N.A)
+
+Báo cáo cung cấp thông tin chi tiết về trạng thái hoạt động của thiết bị, bao gồm cả thông tin về nhóm và phân nhóm của thiết bị, cũng như thời gian cập nhật gần nhất.
+
+2025-01-17 14:36:05,014 - INFO - STATE 4 --> STATE 1
+
+2025-01-17 14:36:05,014 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:36:46,292 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:36:47,443 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:36:47,443 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:36:47,443 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:36:48,611 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:36:48,611 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 14:36:51,285 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:36:51,285 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:36:51,285 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:36:51,285 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:36:51,285 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 14:36:51,285 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:36:51,309 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 14:36:51,309 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:36:51,309 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200 | score: 0.6666666666666666",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100 | score: 0.5217391304347826",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80 | score: 0.4918032786885246",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100 | score: 0.4838709677419355",
+    "GIẾNG KHOAN ĐL - 5 | score: 0.375",
+    "GIẾNG KHOAN ĐL - 6 | score: 0.375",
+    "ĐH BANG NGANG DONG | score: 0.4166666666666667",
+    "ĐH ĐẶNG VĂN NGỮ D100 | score: 0.32",
+    "GIẾNG KHOAN KP-20 () | score: 0.36"
+]
+
+2025-01-17 14:36:51,439 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:36:51,439 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': 'ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449'}
+
+2025-01-17 14:36:51,439 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:36:51,440 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': "Device with name 'ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449' not found."}
+
+2025-01-17 14:36:51,440 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:36:51,508 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': "Device with name 'ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449' not found."}
+
+2025-01-17 14:36:51,508 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:36:51,508 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:36:53,200 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449)]
+
+2025-01-17 14:36:53,200 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': "Device with name 'ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449' not found."}
+
+2025-01-17 14:36:53,200 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool không có thông tin về device với tên "ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449" vì nó không được tìm thấy trong cơ sở dữ liệu.
+
+2025-01-17 14:36:53,200 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:36:53,200 - INFO - STATE 3 & 4 | Lần: 2
+
+2025-01-17 14:36:54,802 - INFO - STATE 3 | response: 
+[search_device_by_name(dev_name="ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449")]
+
+2025-01-17 14:36:54,802 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:36:54,802 - INFO - STATE 3 | args: 
+{'dev_name': '"ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449"'}
+
+2025-01-17 14:36:54,802 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:36:54,812 - INFO - STATE 3_2 DATABASE | query: 
+"ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.5172413793103449"
+
+2025-01-17 14:36:54,812 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:36:54,812 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH LÊ DUẨN - QUANG TRUNG D80 | score: 0.6511627906976745",
+    "ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244",
+    "ÂU CƠ - HÙNG VƯƠNG D80 | score: 0.325",
+    "ĐH TUYẾN GIẾNG KHOAN HÒA THẮNG D250 | score: 0.3225806451612903",
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200 | score: 0.3711340206185567",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100 | score: 0.3711340206185567",
+    "ĐH HÀ HUY TẬP - GIẢI PHÓNG D80 | score: 0.36363636363636365",
+    "ĐẦU VÀO TRẠM BƠM NƯỚC NGẦM D150 | score: 0.2247191011235955",
+    "ĐH NGUYỄN CƯ TRINH(HÙNG VƯƠNGD100) | score: 0.32608695652173914",
+    "ĐH NGUYỄN CÔNG TRỨ _ LÝ THƯỜNG KIỆT (D200)  | score: 0.34"
+]
+
+2025-01-17 14:36:54,954 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:36:54,954 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': 'ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244'}
+
+2025-01-17 14:36:54,954 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:36:54,955 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': "Device with name 'ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244' not found."}
+
+2025-01-17 14:36:54,955 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:36:55,020 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': "Device with name 'ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244' not found."}
+
+2025-01-17 14:36:55,020 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:36:55,020 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:36:59,607 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244)]
+
+2025-01-17 14:36:59,607 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': "Device with name 'ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244' not found."}
+
+2025-01-17 14:36:59,607 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244' not found.".
+
+Điều này có nghĩa là tool không thể tìm thấy một thiết bị có tên "ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244". Tên thiết bị này có thể không chính xác hoặc không tồn tại trong cơ sở dữ liệu của tool.
+
+Để giải quyết vấn đề này, bạn có thể kiểm tra lại tên thiết bị và đảm bảo rằng nó chính xác. Nếu vẫn gặp vấn đề, bạn có thể liên hệ với bộ phận hỗ trợ của tool để được giúp đỡ.
+
+2025-01-17 14:36:59,607 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:36:59,607 - INFO - STATE 3 & 4 | Lần: 3
+
+2025-01-17 14:37:01,277 - INFO - STATE 3 | response: 
+[search_device_by_name(dev_name=ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244)]
+
+2025-01-17 14:37:01,277 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:37:01,277 - INFO - STATE 3 | args: 
+{'dev_name': 'ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244'}
+
+2025-01-17 14:37:01,277 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:37:01,289 - INFO - STATE 3_2 DATABASE | query: 
+ĐH 03 NƠ TRANG LONG D100 | score: 0.3902439024390244
+
+2025-01-17 14:37:01,289 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:37:01,289 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH 03 NƠ TRANG LONG D100 | score: 0.631578947368421",
+    "ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617",
+    "ĐH TÂN PHONG D100 | score: 0.34782608695652173",
+    "ĐH AMA JHAO D100 | score: 0.3235294117647059",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự | score: 0.24390243902439024",
+    "ĐH HÀ HUY TẬP-GIẢI PHÓNG D150 | score: 0.345679012345679",
+    "ĐH Y WANG _ LÊ DUẨN (D100) | score: 0.38461538461538464",
+    "ĐH NƯỚC MẶT CN BUÔN HỒ D300 | score: 0.3037974683544304",
+    "ĐH D80 Duy Tân - Hùng Vương | score: 0.3037974683544304",
+    "ĐH NGUYỄN CƯ TRINH(HÙNG VƯƠNGD100) | score: 0.37209302325581395"
+]
+
+2025-01-17 14:37:01,429 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:37:01,429 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': 'ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617'}
+
+2025-01-17 14:37:01,429 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:37:01,429 - INFO - STATE 3 | result: 
+{'status': 'error', 'error': "Device with name 'ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617' not found."}
+
+2025-01-17 14:37:01,429 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:37:01,495 - INFO - STATE FIX | ipython: 
+{'status': 'error', 'error': "Device with name 'ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617' not found."}
+
+2025-01-17 14:37:01,495 - INFO - STATE FIX | response: 
+Error
+2025-01-17 14:37:01,495 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:37:04,815 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617)]
+
+2025-01-17 14:37:04,815 - INFO - STATE 4 | ipython: 
+{'status': 'error', 'error': "Device with name 'ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617' not found."}
+
+2025-01-17 14:37:04,815 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool không có thông tin nào về thiết bị "ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617" vì thiết bị này không được tìm thấy trong cơ sở dữ liệu của tool. Kết quả trả về là trạng thái "error" và thông điệp lỗi "Device with name 'ĐH ĐẦU RA BỂ THĂNG LONG DN250 | score: 0.3950617283950617' not found."
+
+2025-01-17 14:37:04,815 - INFO - STATE 4 --> STATE 3
+
+2025-01-17 14:37:04,815 - INFO - STATE 4 | ERROR 
+ Có lỗi tại state 4
+
+2025-01-17 14:37:04,815 - INFO - STATE 4 --> STATE 1
+
+2025-01-17 14:37:04,815 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:39:21,054 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:39:22,205 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:39:22,205 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:39:22,205 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:39:23,377 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:39:23,377 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 14:39:25,780 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:39:25,780 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:39:25,780 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:39:25,780 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:39:25,780 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 14:39:25,780 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:39:25,802 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 14:39:25,802 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:39:25,802 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D80 Duy Tân - Hùng Vương",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi"
+]
+
+2025-01-17 14:39:25,910 - INFO - STATE 3_2 DATABASE | response_search: 
+0
+
+2025-01-17 14:39:25,911 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:39:25,911 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:39:25,911 - INFO - STATE 3 --> STATE 3_2 DATABASE RECOMMEND
+
+2025-01-17 14:39:28,686 - INFO - STATE 3_2 DATABASE RECOMMEND | response: 
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 14:39:28,686 - INFO - STATE 3_2 DATABASE RECOMMEND | response
+ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200
+ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100
+ĐH LÊ DUẨN - QUANG TRUNG D80
+QUANG TRUNG - TRẦN HƯNG ĐẠO D80
+QUANG TRUNG - LÊ HỒNG PHONG D100
+
+2025-01-17 14:39:28,686 - INFO - STATE 3_2 DATABASE RECOMMEND --> STATE 3
+
+2025-01-17 14:39:28,686 - INFO - STATE 3 --> STATE 1
+
+2025-01-17 14:39:28,686 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+2025-01-17 14:41:20,837 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:41:21,784 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:41:21,784 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:41:21,784 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:41:22,778 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:41:22,778 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 14:41:26,034 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:41:26,704 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:41:26,704 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:41:26,704 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:41:27,698 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='xô viết')]
+
+2025-01-17 14:41:27,698 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | xô viết |
+
+2025-01-17 14:41:29,819 - INFO - 
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+2025-01-17 14:41:30,716 - INFO - STATE 1 | user: 
+tìm thông tim thiết bị quang trung - xô viết
+
+2025-01-17 14:41:30,716 - INFO - STATE 1 | response: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:41:30,716 - INFO - STATE 1 --> STATE 2
+
+2025-01-17 14:41:31,885 - INFO - STATE 2 PRE | func_conf: 
+[search_device_by_name(dev_name='thiết bị quang trung - Xô Viết')]
+
+2025-01-17 14:41:31,885 - INFO - STATE 2 PRE | response: 
+Chức năng: Tìm kiếm thiết bị theo Name.
+
+| Thông số | Giá trị |
+| --- | --- |
+| dev_name | thiết bị quang trung - Xô Viết |
+
+2025-01-17 14:41:33,847 - INFO - STATE 2 | user
+đúng
+
+2025-01-17 14:41:33,848 - INFO - STATE 2 --> STATE 3
+
+2025-01-17 14:41:33,848 - INFO - STATE 3 & 4 | Lần: 1
+
+2025-01-17 14:41:33,848 - INFO - STATE 3 | function_name: 
+search_device_by_name
+
+2025-01-17 14:41:33,848 - INFO - STATE 3 | args: 
+{'dev_name': 'thiết bị quang trung - Xô Viết'}
+
+2025-01-17 14:41:33,849 - INFO - STATE 3 --> STATE 3_2 DATABASE
+
+2025-01-17 14:41:33,872 - INFO - STATE 3_2 DATABASE | query: 
+thiết bị quang trung - Xô Viết
+
+2025-01-17 14:41:33,872 - INFO - STATE 3_2 DATABASE | arg_name: 
+dev_name
+
+2025-01-17 14:41:33,872 - INFO - STATE 3_2 DATABASE | rag_data: 
+[
+    "ĐH QUANG TRUNG - XÔ VIẾT NGHỆ TỈNH D200",
+    "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100",
+    "ĐH LÊ DUẨN - QUANG TRUNG D80",
+    "QUANG TRUNG - TRẦN HƯNG ĐẠO D80",
+    "QUANG TRUNG - LÊ HỒNG PHONG D100",
+    "ĐH PHAN CHU TRINH - CHU VAN AN",
+    "ĐH D100 Ngô Quyền - Ngô Gia Tự",
+    "ĐH D100 NGUYỄN CÔNG TRỨ - HÙNG VƯƠNG",
+    "ĐH D80 Duy Tân - Hùng Vương",
+    "ĐH D100 Hùng Vương - Nguyễn Trãi"
+]
+
+2025-01-17 14:41:33,979 - INFO - STATE 3_2 DATABASE | response_search: 
+2
+
+2025-01-17 14:41:33,979 - INFO - STATE 3_2 DATABASE | Updated arg
+New arg: {'dev_name': 'ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100'}
+
+2025-01-17 14:41:33,979 - INFO - STATE 3_2 DATABASE --> STATE 3
+
+2025-01-17 14:41:33,980 - INFO - STATE 3 | result: 
+{'status': 'success', 'device': {'devID': 'F98503', 'Name': 'ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100', 'Group': 'MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ BUÔN MA THUỘT', 'SubGroup': 'VÙNG 1', 'LastUpdated': '2025-01-03 15:34:44', 'Status': 'ONL', 'Warning': 'N.A'}}
+
+2025-01-17 14:41:33,980 - INFO - STATE 3 --> STATE FIX
+
+2025-01-17 14:41:34,119 - INFO - STATE FIX | ipython: 
+{'status': 'success', 'device': {'devID': 'F98503', 'Name': 'ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100', 'Group': 'MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ BUÔN MA THUỘT', 'SubGroup': 'VÙNG 1', 'LastUpdated': '2025-01-03 15:34:44', 'Status': 'ONL', 'Warning': 'N.A'}}
+
+2025-01-17 14:41:34,119 - INFO - STATE FIX | response: 
+"Success"
+2025-01-17 14:41:34,119 - INFO - STATE FIX --> STATE 4
+
+2025-01-17 14:41:43,269 - INFO - STATE 4 | python_tag: 
+[search_device_by_name(dev_name=ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100)]
+
+2025-01-17 14:41:43,269 - INFO - STATE 4 | ipython: 
+{'status': 'success', 'device': {'devID': 'F98503', 'Name': 'ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100', 'Group': 'MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ BUÔN MA THUỘT', 'SubGroup': 'VÙNG 1', 'LastUpdated': '2025-01-03 15:34:44', 'Status': 'ONL', 'Warning': 'N.A'}}
+
+2025-01-17 14:41:43,269 - INFO - STATE 4 | response: 
+Kết quả trả về từ tool cho thấy thông tin về thiết bị "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100" sau khi thực hiện truy vấn.
+
+- **Trạng thái**: Kết quả trả về là "success", cho thấy thiết bị đã được tìm thấy và thông tin được trả về thành công.
+
+- **Thông tin thiết bị**: 
+  - **devID**: "F98503" - Mã thiết bị duy nhất.
+  - **Name**: "ĐH QUANG TRUNG - TRƯỜNG CHU VĂN AN D100" - Tên thiết bị.
+  - **Group**: "MẠNG LƯỚI CẤP NƯỚC THÀNH PHỐ BUÔN MA THUỘT" - Nhóm thiết bị.
+  - **SubGroup**: "VÙNG 1" - Phụ nhóm thiết bị.
+  - **LastUpdated**: "2025-01-03 15:34:44" - Thời gian cập nhật lần cuối.
+  - **Status**: "ONL" - Trạng thái hoạt động (ONL cho thấy thiết bị đang hoạt động).
+  - **Warning**: "N.A" - Thông báo cảnh báo (N.A cho thấy không có thông báo cảnh báo).
+
+Kết quả này cung cấp thông tin chi tiết về thiết bị, bao gồm trạng thái hoạt động, nhóm và phụ nhóm, cũng như thời gian cập nhật lần cuối.
+
+2025-01-17 14:41:43,269 - INFO - STATE 4 --> STATE 1
+
+2025-01-17 14:41:43,269 - INFO - 
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+

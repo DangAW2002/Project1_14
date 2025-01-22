@@ -4,8 +4,10 @@ import torch
 # model_id = "unsloth/Llama-3.2-1B-Instruct-bnb-4bit"
 # model_id = "unsloth/llama-3-8b-Instruct-bnb-4bit"
 model_id = "meta-llama/Llama-3.2-3B-Instruct"
+# model_id = "phamhai/Llama-3.2-3B-Instruct-Frog"
 # model_id = "5CD-AI/Vintern-1B-v2"
 # model_id = "Groq/Llama-3-Groq-8B-Tool-Use"
+print("Loading model", model_id)
 pipeline = transformers.pipeline(
     "text-generation",
     model=model_id,

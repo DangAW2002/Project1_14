@@ -1,0 +1,5 @@
+2025-01-17 10:55:25,813 - ERROR - Error in state_3_searchdb
+bad operand type for unary +: 'str'
+
+2025-01-17 10:55:25,814 - ERROR - string indices must be integers
+

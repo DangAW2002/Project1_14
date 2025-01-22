@@ -1,4 +1,5 @@
 import sys
+from datetime import datetime
 sys.path.append('scr')
 from function_call import function_descriptions
 
@@ -10,6 +11,9 @@ def create_prompt(role, message="", end=False):
 #     else:
     return f"""<|start_header_id|>{role}<|end_header_id|>
 {message}{"<|eot_id|>" if end else ""}"""
+
+def prompt_current_date():
+    return f"""Today Date: {datetime.now().strftime("%Y-%m-%d")}"""
 
 def user_prompt(message):
     return create_prompt("user", message, end=True)
@@ -252,27 +256,38 @@ Dưới đây là danh sách các hàm ở dạng JSON mà bạn có thể gọi
 """
 system_ins3_2_database = f"""\
 Bạn là một chuyên gia trong việc ánh xạ.
-Bạn được cho một danh sách các chuỗi là các argument cho công cụ gọi hàm.
-
-Hãy ánh xạ yêu cầu từ người dùng với danh sách chuỗi.
+Hãy xác định những chuỗi có thể ánh xạ với yêu cầu người dùng.
 Sau đó xác định 1 chuỗi tương đồng nhất với yêu cầu từ người dùng.
-Nếu chỉ có một chuỗi phù hợp nhất, hãy trả về theo cấu trúc:
-Cấu trúc trả về: [một chuỗi tương đồng nhất], không thêm bất kỳ văn bản nào khác vào phản hồi.
-Ví dụ: [F23210] 
+Nếu có một chuỗi tương đồng nhất, hãy trả về chuỗi đó.
+Cấu trúc trả về: #một chuỗi tương đồng nhất#, không thêm bất kỳ văn bản nào khác vào phản hồi.
+Ví dụ: #F23210# 
 
 Nếu có nhiều chuỗi ánh xạ được, chỉ trả về chuỗi 'multi' và không được thêm bất kỳ văn bản khác vào phản hồi.
-Nếu không có chuỗi tương đồng, hãy trả về 'không' (không nằm trong []).
-
+Nếu không có chuỗi tương đồng, hãy trả về 'không'.
+Bạn chỉ được trả về #một chuỗi tương đồng# hoặc 'multi' (không có #) hoặc 'không' (không có #), không được trả về nhiều chuỗi, không thêm bất kỳ văn bản khác vào phản hồi.
+Nếu chỉ có đúng một chuỗi tương đồng, trả về chuỗi đó theo cấu trúc #chuỗi#, không thêm bất kỳ văn bản khác vào phản hồi.
 """
+
+system_ins3_2_database_test = f"""\
+Bạn là một trợ lý thông minh nhưng rất kiệm lời.
+Bạn được cho một danh sách các chuỗi và chuỗi của người dùng.
+Hãy xác định chuỗi nào tương đồng với chuỗi của người dùng.
+Nếu có một chuỗi tương đồng cao, hãy trả về thứ tự chuỗi đó trong danh sách.
+Nếu có nhiêu chuỗi tương đồng hoặc không có chuỗi nào tương đồng, hãy trả về 0.
+
+Ban luôn chỉ trả về duy nhất một số và không thêm bất kỳ văn bản nào khác vào phản hồi.
+Ví dụ: Nêu bạn thấy chuỗi người dùng có phần giống với chuỗi thứ 3 trong danh sách, hãy trả về 3.
+Ví dụ: Nếu bạn thấy chuỗi người dùng giống chuỗi thứ 1 và thứ 4 trong danh sách, hãy trả về 0.
+Ví dụ: Nếu không có chuỗi nào giống, hãy trả về 0.
+"""
+
 system_ins3_2_database_recommend = f"""\
-Bạn là một chuyên gia trong việc ánh xạ.
-Bạn được cho một danh sách các chuỗi và một yêu cầu từ người dùng.
-Hãy ánh xạ và liệt kê những chuỗi tương đồng với yêu cầu từ người dùng.
-Chuỗi liệt kê phải y như trong danh sách, khong được thêm hoặc bớt trong chuỗi.
-
+Bạn là một chuyên gia trong việc tư vấn.
+Khi tư vấn, bắt buộc chỉ được lấy từ danh sách.
+Không được tự viết bất kỳ gợi ý nào ngoài danh sách.
 """
 
-# test
+# test -----------------------------------------------------
 """Bắt buộc trả về một trong các chuỗi dưới đây dựa trên sự tương đồng với yêu cầu người dùng, không bao gồm phần 'score' và không được thêm bất kỳ văn bản khác vào phản hồi.
 Nếu không tìm được, chỉ trả về 'Không' và không kèm bất kỳ văn bản nào khác."""
 
@@ -289,6 +304,7 @@ Chỉ trả về theo Literal['Success', 'Error'], không được thêm bất k
 
 """
 
+# chưa dùng -----------------------------------------------------
 system_ins_user_intent = """\
 Bạn là một trợ lý thông minh trong việc xác định mong muốn của người dùng.
 Dựa trên yêu cầu được cung cấp bên dưới, hãy xác định xem mong muốn của người dùng là "Điều chỉnh", "Bỏ qua" hay "Thực hiện".

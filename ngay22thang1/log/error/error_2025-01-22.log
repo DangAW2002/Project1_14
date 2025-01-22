@@ -1,0 +1,25 @@
+2025-01-22 10:51:12,906 - ERROR - can only concatenate str (not "list") to str
+
+2025-01-22 10:53:24,150 - ERROR - sequence item 0: expected str instance, dict found
+
+2025-01-22 11:16:05,900 - ERROR - Error in state_3_searchdb
+'data'
+
+2025-01-22 11:16:05,900 - ERROR - too many values to unpack (expected 2)
+
+2025-01-22 11:29:43,549 - ERROR - 'data'
+
+2025-01-22 11:36:11,740 - ERROR - 'data'
+
+2025-01-22 11:37:13,724 - ERROR - sequence item 0: expected str instance, dict found
+
+2025-01-22 11:38:44,618 - ERROR - sequence item 0: expected str instance, dict found
+
+2025-01-22 11:57:09,260 - ERROR - bad operand type for unary +: 'str'
+
+2025-01-22 14:01:57,063 - ERROR - 'data'
+
+2025-01-22 14:04:35,659 - ERROR - 'data'
+
+2025-01-22 14:07:00,101 - ERROR - local variable 'recommend' referenced before assignment
+

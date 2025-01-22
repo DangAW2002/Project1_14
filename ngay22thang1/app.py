@@ -6,6 +6,9 @@ from scr.timeout_guard import timeout_guard  # Import timeout_guard from timeout
 from scr.state import state_1, state_2_pre, state_2, state_4, state_fix, user_assistant_prompt, state_3_model, state_3_parse, state_3_result, state_3_searchdb, state_3_database_recommend  # Import state functions from state.py
 import speech_recognition as sr
 from pydub import AudioSegment
+import threading
+import http.server
+import socketserver
 # Set up the global variables
 state = 1
 current_tool = ""
@@ -72,26 +75,48 @@ def run_conversation(message):
             function_name, args = state_3_parse(response)
 
             python_tag_str = function_name
-            if python_tag_str == "Error":
+            if function_name == "Error":
                 continue
+            python_tag_str = response
             # Nếu function_name thuộc search database thì thực hiện RAG
-            state_logger.info(f"STATE 3 --> STATE 3_2 DATABASE\n")
-            args, recommend_response = state_3_searchdb(function_name, args)
-            state_logger.info(f"STATE 3_2 DATABASE --> STATE 3\n")
+            most_similar = {}
+            if function_name in search_functions:
+                state_logger.info(f"STATE 3 --> STATE 3_2 DATABASE\n")
+                arg_name = search_functions[function_name]
+                data = args[arg_name]
+                most_similar, recommend = state_3_searchdb(function_name, data)
+                print(f"most_similar: {most_similar}")
+                if 'error' in most_similar:
+                    state = 1
+                    current_tool = ""
+                    response = "Đã có lỗi xảy ra trong lúc tìm kiếm dữ liệu, quay về mặc định."
+                    user_assistant_prompt[0] = user_assistant_prompt[0] + user_prompt(message) + assistant_prompt(response, end=True)
+                    state_logger.info(f"STATE 3_2 DATABASE | ERROR\n")
+                    state_logger.info(f"STATE 3_2 DATABASE --> STATE 1\n")
+                    state_logger.info('\n' + '\\'*LENGTH_LOGGING + '\n')
+                    return response
+                elif not 'data' in most_similar:
+                    state_logger.info(f"STATE 3 --> STATE 3_2 DATABASE RECOMMEND\n")
+                    response = state_3_database_recommend(args[arg_name], recommend)
 
-            if not recommend_response == '':
-                state_logger.info(f"STATE 3 --> STATE 3_2 DATABASE RECOMMEND\n")
-                response = state_3_database_recommend(function_name, args)
-                state_logger.info(f"STATE 3_2 DATABASE RECOMMEND | response\n{response}\n")
-                state_logger.info(f"STATE 3_2 DATABASE RECOMMEND --> STATE 3\n")
-                response = "Tôi không tìm thấy thông tin bạn yêu cầu. Dưới đây là một số thông tin tương tự:\n" + response
-                user_assistant_prompt[0] = user_assistant_prompt[0] + user_prompt(message) + assistant_prompt(response, end=True) 
+                    recommend_str = "\n".join(json.dumps(item, ensure_ascii=False) for item in recommend)
+                    # arg_name = search_functions[function_name]
+                    user_message = f"""Bạn được cung cấp một danh sách:\n{recommend_str}\nYêu cầu: Hãy thông báo là không tìm thấy thiết bị'{args[arg_name]}', sau đó liệt kê danh sách trên theo kiểu gợi ý, không cấn score. Phải ghi đúng y chang danh sách."""
 
-                state = 1
-                current_tool = ""
-                state_logger.info(f"STATE 3 --> STATE 1\n")
-                state_logger.info('\n' + '\\'*LENGTH_LOGGING + '\n') 
-                return response
+                    user_assistant_prompt[0] = user_assistant_prompt[0] + user_prompt(user_message) + assistant_prompt(response, end=True)
+                    
+                    state_logger.info(f"STATE 3_2 DATABASE RECOMMEND | response\n{response}\n")
+                    state_logger.info(f"STATE 3_2 DATABASE RECOMMEND --> STATE 3\n")
+                    state = 1
+                    current_tool = ""
+                    state_logger.info(f"STATE 3 --> STATE 1\n")
+                    state_logger.info('\n' + '\\'*LENGTH_LOGGING + '\n')
+                    return response
+                else:
+                    args[arg_name] = most_similar['data']
+
+                    state_logger.info(f"STATE 3_2 DATABASE --> STATE 3\n")
+
             # Thực thi hàm công cụ và lấy kết quả JSON
             ipython_str  = state_3_result(function_name, args)
             
@@ -109,7 +134,14 @@ def run_conversation(message):
             print(check)
 
             state_logger.info(f"STATE FIX --> STATE 4\n")
+            if 'data' in most_similar and not most_similar['data'] == "":
+                print(f"rag_data:   {recommend}")
+                new_tool = f"""[{function_name}({search_functions[function_name]}={args[search_functions[function_name]]})]"""
+                print("new_tool: " +  new_tool)
+                python_tag_str = new_tool
             response = state_4(python_tag_str, ipython_str)
+
+            
             user_assistant_prompt[0] = user_assistant_prompt[0] + user_prompt(message) + assistant_prompt(python_tag(python_tag_str)) + eom_prompt() + ipython(ipython_str)
             user_assistant_prompt[0] = user_assistant_prompt[0] + user_prompt("Mô tả kết quả") + assistant_prompt(response, end = True)
 
@@ -131,7 +163,7 @@ def run_conversation(message):
                 return response
             
         # Lỗi tại lúc chạy model và phân giải hàm
-        if python_tag_str == "Error":
+        if function_name == "Error":
             state = 1
             current_tool = ""
             response = "Đã có lỗi xảy ra trong lúc dùng công cụ, quay về mặc định."
@@ -237,15 +269,41 @@ with gr.Blocks(fill_height=True) as demo:
         ],
         textbox=text_input
     )
-
     # Add a button to reset chat
     button = gr.Button("Reset Chat", elem_id="reset_button")
     button.click(reset_chat, outputs=iface.chatbot)
 
     # Add a file input for voice input
-    voice_input = gr.Audio(sources=["microphone","upload"], type="filepath", label="Voice Input",format="wav")
-    voice_input.change(fn=voice_to_text, inputs=voice_input, outputs=text_input)
+    with gr.Accordion("Voice Input", open=False):
+        voice_input = gr.Audio(sources=["microphone","upload"], type="filepath", label="Voice Input", format="wav")
+        voice_input.change(fn=voice_to_text, inputs=voice_input, outputs=text_input)
+
+
+def run_http_server():
+    PORT = 8000
+    Handler = http.server.SimpleHTTPRequestHandler
+    with socketserver.TCPServer(("", PORT), Handler, bind_and_activate=False) as httpd:
+        httpd.allow_reuse_address = True
+        httpd.server_bind()
+        httpd.server_activate()
+        print(f"HTTP server đang chạy tại: http://localhost:{PORT}")
+        try:
+            httpd.serve_forever()
+        except KeyboardInterrupt:
+            print("Đang tắt HTTP server...")
+        except BrokenPipeError:
+            print("Lỗi Broken Pipe xảy ra, đóng kết nối.")
+        finally:
+            httpd.server_close()
 
 if __name__ == "__main__":
-    configure_logger()  # Configure logger
-    demo.launch(share= True)  # Launch the interface
+    configure_logger()  # Configure
+    http_thread = threading.Thread(target=run_http_server)
+    http_thread.start()
+
+    demo.launch(server_name="0.0.0.0", server_port=8080) 
+
+    try:
+        http_thread.join()
+    except KeyboardInterrupt:
+        print("Stopping all servers...")

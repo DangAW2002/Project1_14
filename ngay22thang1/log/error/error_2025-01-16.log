@@ -1,0 +1,70 @@
+2025-01-16 12:00:50,500 - ERROR - state_3_database_recommend() missing 1 required positional argument: 'rag_data'
+
+2025-01-16 12:05:24,170 - ERROR - Error in state_3_searchdb
+local variable 'rag_data' referenced before assignment
+
+2025-01-16 12:05:24,170 - ERROR - 'config_reset_device'
+
+2025-01-16 13:43:42,086 - ERROR - 'config_reset_device'
+
+2025-01-16 13:52:33,161 - ERROR - 'config_reset_device'
+
+2025-01-16 14:38:09,545 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH D100 Y NUÊ - LÊ DUẨN' not found." 
+
+* Status: Error
+* Error: Device with name 'ĐH D100 Y NUÊ - LÊ DUẨN' not found.
+
+
+2025-01-16 14:40:58,563 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH D100 Y NUÊ - LÊ DUẨN' not found." Điều này nghĩa là tool không thể tìm thấy một thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Thông tin chi tiết về lỗi:
+
+* Status: Error (Sự kiện lỗi)
+* Error: Không tìm thấy thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Không có thông tin nào khác được trả về từ tool.
+
+
+2025-01-16 14:41:03,502 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH D100 Y NUÊ - LÊ DUẨN' not found." Điều này nghĩa là tool không thể tìm thấy một thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Thông tin chi tiết về lỗi:
+
+* Status: Error (Sự kiện lỗi)
+* Error: Không tìm thấy thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+
+2025-01-16 14:42:45,188 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH D100 Y NUÊ - LÊ DUẨN' not found." Điều này nghĩa là tool không thể tìm thấy một thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Thông tin chi tiết về lỗi:
+
+* Status: Error (Sự kiện lỗi)
+* Error: Không tìm thấy thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Không có thông tin nào khác được trả về từ tool.
+
+
+2025-01-16 14:42:50,848 - ERROR - Error in state_3_parse
+Can't parse function
+The response format is incorrect for the function call tool.
+Response: Kết quả trả về từ tool là một lỗi, cụ thể là lỗi "Device with name 'ĐH D100 Y NUÊ - LÊ DUẨN' not found." Điều này nghĩa là tool không thể tìm thấy một thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Thông tin chi tiết về lỗi:
+
+* Status: Error (Sự kiện lỗi)
+* Error: Không tìm thấy thiết bị có tên 'ĐH D100 Y NUÊ - LÊ DUẨN'.
+
+Không có thông tin nào khác được trả về từ tool.
+
+
