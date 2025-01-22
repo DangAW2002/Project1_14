@@ -301,7 +301,7 @@ if __name__ == "__main__":
     http_thread = threading.Thread(target=run_http_server)
     http_thread.start()
 
-    demo.launch(server_name="0.0.0.0", server_port=8080) 
+    demo.launch(share=True) 
 
     try:
         http_thread.join()
