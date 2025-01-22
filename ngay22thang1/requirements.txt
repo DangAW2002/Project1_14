@@ -2,3 +2,9 @@ dataclasses
 transformers
 torch
 gradio
+numpy
+scikit-learn
+python-Levenshtein
+pydub
+speechrecognition
+unidecode
